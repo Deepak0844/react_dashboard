@@ -156,8 +156,8 @@ const styles={
     <div>
   <h3 className="allTitle" >Revenue Sources</h3> 
     <div className="piechartContent">
-    </div>
   <PieChart/>
+  </div>
     </div> 
     </div>      
 </div>  

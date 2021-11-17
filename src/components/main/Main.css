@@ -149,13 +149,11 @@
   min-width: 300px;
   width: 100%;
 }
-.pieChart{
+.piechartContent{
   display: flex;
-  height: auto;
-  justify-content: center;
-  align-items: center;
+   justify-content: center; 
+   align-items: center;
 }
-
 .chartsContainer{
   display: grid;
   grid-template-columns: 1fr 0.7fr;
@@ -164,6 +162,10 @@
 .illuDevApp{
   color: #858796;
 }
+.piechart,.lineChart{
+  width: 100%;
+}
+
 
 @media (max-width:1150px) {
 .content{

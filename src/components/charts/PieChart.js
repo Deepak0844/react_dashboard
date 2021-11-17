@@ -17,7 +17,7 @@ export default function PieChart() {
     <div>
       <div className="chartContainer">
           
-        <Doughnut style={{ minWidth: "260px", width: "100%", minHeight: "260px",height:"auto" }}
+        <Doughnut style={{ minWidth: "150px", maxWidth: "100%" }}
           data={data2}
           options={{ cutout: "80%" }} />
       </div>
